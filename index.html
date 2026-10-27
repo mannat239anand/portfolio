@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mannat Anand — First Year B.Tech CSE Student Portfolio. Academic & Non-Academic Achievements, Contact Info, and Q&A." />
+  <title>Mannat Anand | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <nav>
+    <div class="nav-logo">M. Anand</div>
+    <ul class="nav-links">
+      <li><a href="#" id="nav-home"   class="active" onclick="showPage('home',   this)">🏠 Home</a></li>
+      <li><a href="#" id="nav-contact"             onclick="showPage('contact', this)">📬 Contact</a></li>
+      <li><a href="#" id="nav-qa"                  onclick="showPage('qa',      this)">💬 Ask Me</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===================== PAGE 1: HOME ===================== -->
+  <section id="page-home" class="page-section active">
+
+    <!-- Hero Row: Photo (left) + Bio (right) -->
+    <div class="hero-row">
+
+      <!-- Photo Card — Top Left -->
+      <div class="photo-card">
+        <div class="photo-wrapper">
+          <img src="profile.jpg" alt="Mannat Anand — Profile Photo" />
+        </div>
+        <div class="photo-status">
+          <span class="status-dot"></span>
+          Open to Opportunities
+        </div>
+      </div>
+
+      <!-- Bio Card — Top Right -->
+      <div class="bio-card">
+        <div class="section-badge">✦ Portfolio</div>
+        <h1>Mannat Anand</h1>
+        <p class="tagline">✦ First Year B.Tech CSE Student &nbsp;|&nbsp; Future Developer</p>
+
+        <div class="bio-grid">
+          <div class="bio-item">
+            <span class="bio-label">Age</span>
+            <span class="bio-value">18 Years</span>
+          </div>
+          <div class="bio-item">
+            <span class="bio-label">Course</span>
+            <span class="bio-value">B.Tech — CSE</span>
+          </div>
+          <div class="bio-item">
+            <span class="bio-label">Year</span>
+            <span class="bio-value">1st Year (2024–28)</span>
+          </div>
+          <div class="bio-item">
+            <span class="bio-label">University</span>
+            <span class="bio-value">ABC University</span>
+          </div>
+          <div class="bio-item">
+            <span class="bio-label">Hometown</span>
+            <span class="bio-value">India 🇮🇳</span>
+          </div>
+          <div class="bio-item">
+            <span class="bio-label">Interests</span>
+            <span class="bio-value">Coding, Design, AI</span>
+          </div>
+          <div class="bio-item">
+            <span class="bio-label">Languages</span>
+            <span class="bio-value">Hindi, English</span>
+          </div>
+          <div class="bio-item">
+            <span class="bio-label">Status</span>
+            <span class="bio-value">🟢 Active Learner</span>
+          </div>
+        </div>
+      </div>
+    </div><!-- /hero-row -->
+
+    <!-- ---- Achievements ---- -->
+    <div class="achievements-wrapper">
+
+      <!-- Academic Achievements -->
+      <div class="achievement-card">
+        <h2><span class="icon">🎓</span> Academic Achievements</h2>
+        <ul class="achievement-list">
+          <li>
+            Scored <strong>92%</strong> in Class 12 Board Examinations (CBSE)
+            <span class="achievement-year">2024</span>
+          </li>
+          <li>
+            Secured <strong>Top 5 Rank</strong> in school Mathematics Olympiad
+            <span class="achievement-year">2023</span>
+          </li>
+          <li>
+            Cleared <strong>JEE Mains</strong> with a percentile of 85.4
+            <span class="achievement-year">2024</span>
+          </li>
+          <li>
+            Received <strong>Merit Scholarship</strong> from ABC University for 1st Semester
+            <span class="achievement-year">2024</span>
+          </li>
+          <li>
+            Completed online course in <strong>Python Programming</strong> (Coursera)
+            <span class="achievement-year">2023</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Non-Academic Achievements -->
+      <div class="achievement-card">
+        <h2><span class="icon">🏆</span> Non-Academic Achievements</h2>
+        <ul class="achievement-list">
+          <li>
+            <strong>1st Place</strong> — Inter-School Debate Competition
+            <span class="achievement-year">2023</span>
+          </li>
+          <li>
+            <strong>Captain</strong> of School Cricket Team, Won District-level Tournament
+            <span class="achievement-year">2022</span>
+          </li>
+          <li>
+            Organised and led <strong>Annual Tech Fest</strong> at school level
+            <span class="achievement-year">2023</span>
+          </li>
+          <li>
+            <strong>Volunteer</strong> — Community Clean-Up Drive, planted 200+ trees
+            <span class="achievement-year">2022</span>
+          </li>
+          <li>
+            <strong>Runner-Up</strong> — College Freshers' Talent Show, Solo Singing
+            <span class="achievement-year">2024</span>
+          </li>
+        </ul>
+      </div>
+
+    </div><!-- /achievements-wrapper -->
+
+    <!-- Signature — Bottom Right -->
+    <div class="signature-row">
+      <div class="signature-card">
+        <div class="signature-text">Mannat Anand</div>
+        <div class="signature-label">Signature &nbsp;✦&nbsp; 2024</div>
+      </div>
+    </div>
+
+  </section><!-- /page-home -->
+
+  <!-- ===================== PAGE 2: CONTACT ===================== -->
+  <section id="page-contact" class="page-section">
+
+    <div class="contact-hero">
+      <div class="section-badge">📬 Reach Out</div>
+      <h1>Get In Touch</h1>
+      <p>Feel free to connect with me through any of the platforms below. I'm always open to conversations, collaborations, and new opportunities!</p>
+    </div>
+
+    <div class="contact-grid">
+
+      <a class="contact-item" href="mailto:mannat.anand@email.com" id="contact-email">
+        <div class="contact-icon-wrap icon-email">📧</div>
+        <div class="contact-info">
+          <h3>Email</h3>
+          <p>manna.anand@email.com</p>
+        </div>
+      </a>
+
+      <a class="contact-item" href="tel:+919876543210" id="contact-phone">
+        <div class="contact-icon-wrap icon-phone">📱</div>
+        <div class="contact-info">
+          <h3>Phone</h3>
+          <p>+91 98765 43210</p>
+        </div>
+      </a>
+
+      <a class="contact-item" href="https://github.com/mannaanand" target="_blank" rel="noopener" id="contact-github">
+        <div class="contact-icon-wrap icon-github">🐙</div>
+        <div class="contact-info">
+          <h3>GitHub</h3>
+          <p>github.com/mannaanand</p>
+        </div>
+      </a>
+
+      <a class="contact-item" href="https://linkedin.com/in/mannaanand" target="_blank" rel="noopener" id="contact-linkedin">
+        <div class="contact-icon-wrap icon-linkedin">💼</div>
+        <div class="contact-info">
+          <h3>LinkedIn</h3>
+          <p>linkedin.com/in/mannaanand</p>
+        </div>
+      </a>
+
+      <a class="contact-item" href="https://instagram.com/manna.anand" target="_blank" rel="noopener" id="contact-insta">
+        <div class="contact-icon-wrap icon-insta">📸</div>
+        <div class="contact-info">
+          <h3>Instagram</h3>
+          <p>@manna.anand</p>
+        </div>
+      </a>
+
+      <div class="contact-item" id="contact-address">
+        <div class="contact-icon-wrap icon-address">📍</div>
+        <div class="contact-info">
+          <h3>Location</h3>
+          <p>New Delhi, India 🇮🇳</p>
+        </div>
+      </div>
+
+    </div>
+
+  </section><!-- /page-contact -->
+
+  <!-- ===================== PAGE 3: ASK ME ===================== -->
+  <section id="page-qa" class="page-section">
+
+    <div class="qa-hero">
+      <div class="section-badge">💬 Ask Anything</div>
+      <h1>Ask Me a Question</h1>
+      <p>Curious about me? Drop your question below and it'll appear in the Q&amp;A board instantly. I read every single one!</p>
+    </div>
+
+    <div class="qa-layout">
+
+      <!-- Question Form -->
+      <div class="qa-form-card">
+        <h2>✏️ Submit Your Question</h2>
+
+        <form id="qa-form" onsubmit="submitQuestion(event)">
+          <div class="form-group">
+            <label for="q-name">Your Name</label>
+            <input
+              type="text"
+              id="q-name"
+              name="name"
+              placeholder="e.g. Rahul Sharma"
+              required
+              maxlength="60"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="q-category">Category</label>
+            <select id="q-category" name="category">
+              <option value="General">💬 General</option>
+              <option value="Academic">🎓 Academic</option>
+              <option value="Career">🚀 Career &amp; Goals</option>
+              <option value="Hobbies">🎸 Hobbies &amp; Interests</option>
+              <option value="Tech">💻 Tech &amp; Coding</option>
+              <option value="Personal">🌟 Personal</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="q-question">Your Question</label>
+            <textarea
+              id="q-question"
+              name="question"
+              rows="5"
+              placeholder="Type your question here... What would you like to know about me?"
+              required
+              maxlength="400"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn" id="qa-submit-btn">
+            🚀 Send Question
+          </button>
+        </form>
+      </div>
+
+      <!-- Q&A Log -->
+      <div class="qa-log-card">
+        <h2>📋 Questions Board</h2>
+        <div id="qa-log">
+          <div class="qa-empty">
+            <span class="qa-empty-icon">🔍</span>
+            <p>No questions yet.<br />Be the first to ask!</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section><!-- /page-qa -->
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer>
+    Made with <span>♥</span> by Manna Anand &nbsp;·&nbsp; B.Tech CSE, 1st Year &nbsp;·&nbsp; <span>2024</span>
+  </footer>
+
+  <!-- ===================== TOAST ===================== -->
+  <div class="toast" id="toast-msg">✅ Question submitted!</div>
+
+  <!-- ===================== JAVASCRIPT ===================== -->
+  <script>
+    /* ---------- Page Navigation ---------- */
+    function showPage(pageId, linkEl) {
+      // Hide all sections
+      document.querySelectorAll('.page-section').forEach(s => s.classList.remove('active'));
+      // Remove active class from all nav links
+      document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
+
+      // Show selected
+      document.getElementById('page-' + pageId).classList.add('active');
+      if (linkEl) linkEl.classList.add('active');
+
+      // Prevent default anchor jump
+      return false;
+    }
+
+    /* ---------- Q&A Form Submission ---------- */
+    function submitQuestion(event) {
+      event.preventDefault();
+
+      const name     = document.getElementById('q-name').value.trim();
+      const category = document.getElementById('q-category').value;
+      const question = document.getElementById('q-question').value.trim();
+
+      if (!name || !question) return;
+
+      const log = document.getElementById('qa-log');
+
+      // Remove empty state
+      const empty = log.querySelector('.qa-empty');
+      if (empty) empty.remove();
+
+      // Create bubble
+      const bubble = document.createElement('div');
+      bubble.className = 'qa-bubble';
+      bubble.innerHTML = `
+        <div class="q-label">New Question</div>
+        <div class="q-name">👤 ${escapeHTML(name)}</div>
+        <div class="q-text">${escapeHTML(question)}</div>
+        <span class="q-category">${categoryEmoji(category)} ${category}</span>
+      `;
+
+      log.prepend(bubble);
+
+      // Reset form
+      document.getElementById('qa-form').reset();
+
+      // Show toast
+      showToast('✅ Question received, thanks ' + name + '!');
+    }
+
+    function categoryEmoji(cat) {
+      const map = { General:'💬', Academic:'🎓', Career:'🚀', Hobbies:'🎸', Tech:'💻', Personal:'🌟' };
+      return map[cat] || '💬';
+    }
+
+    function escapeHTML(str) {
+      return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    /* ---------- Toast Notification ---------- */
+    function showToast(msg) {
+      const toast = document.getElementById('toast-msg');
+      toast.textContent = msg;
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 3500);
+    }
+  </script>
+
+</body>
+</html>
